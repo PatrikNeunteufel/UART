@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{77b02330-a24d-4756-b85b-12e3965b064d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs\en">
+      <UniqueIdentifier>{047a6029-e34c-41d5-a3ea-3e33ac23e4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs\de">
+      <UniqueIdentifier>{4057c332-c549-419c-b7f6-0ebc37c73e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs\en\guide">
+      <UniqueIdentifier>{cb20fe5f-800e-4cbe-930c-be5840890d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs\de\guide">
+      <UniqueIdentifier>{80543bbd-e21f-4bc2-93ff-4569b34fc6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs\en\reference">
+      <UniqueIdentifier>{40a42408-29a9-4129-97a3-4a5c43a8f1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs\de\reference">
+      <UniqueIdentifier>{76a5f90c-ae02-4457-abfc-a1a015f575f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="docs\de\reference\Color_Reference.md">
+      <Filter>Docs\de\reference</Filter>
+    </None>
+    <None Include="docs\de\reference\UART_Listener_Reference.md">
+      <Filter>Docs\de\reference</Filter>
+    </None>
+    <None Include="docs\de\guide\UART_Listener_UserGuide.md">
+      <Filter>Docs\de\guide</Filter>
+    </None>
+    <None Include="docs\en\reference\Color_Reference.md">
+      <Filter>Docs\en\reference</Filter>
+    </None>
+    <None Include="docs\en\reference\UART_Listener_Reference.md">
+      <Filter>Docs\en\reference</Filter>
+    </None>
+    <None Include="docs\en\guide\UART_Listener_UserGuide.md">
+      <Filter>Docs\en\guide</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ANSI_support.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cli.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Color.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataFormat.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Globals.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Time.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UART.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Worker.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ANSI_support.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cli.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Color.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataFormat.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Format.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Globals.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Time.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UART.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Worker.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
