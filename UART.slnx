@@ -4,7 +4,9 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/Projektmappenelemente/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
     <File Path="README.md" />
   </Folder>
-  <Project Path="UART_Listener/UART_Listener.vcxproj" />
+  <Project Path="UART_Listener/UART_Listener.vcxproj" Id="258202ba-7b2d-4de9-9e4f-ff017cb3037d" />
 </Solution>
